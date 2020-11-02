@@ -6,4 +6,6 @@ printInfo "Hello Info"
 printWarn "Hello Warn"
 printErr "Hello Error"
 
-pkgInstall nvim
+forceRelinkFile ~/.config/nvim/init.vim ~/Workspace/env/dot-configs/init.vim
+forceRelinkFile ~/.tmux.conf ~/Workspace/env/dot-configs/.tmux.conf
+# pkgInstall nvim
